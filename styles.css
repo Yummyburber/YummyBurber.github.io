@@ -139,7 +139,7 @@ footer {
 
 
 .logo {
-    max-width: 350px;
+    max-width: 700px;
     height: auto;
     width: auto;
     padding: 10px;
@@ -148,19 +148,19 @@ footer {
 /* make nav use flex so it can wrap on small screens */
 nav {
     display: flex;
-    gap: 0.5rem;
+    gap: 6rem;
     align-items: center;
     flex-wrap: wrap;
     flex: 1;
+    justify-content: flex-end
 }
 
 nav a {
-    margin: 0 0.5rem;
-    padding: 0.4rem 0.6rem;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
     color: #3b3a30;
     font-weight: bold;
-    font-size: larger;
-    
+    font-size: xx-large;
 }
 
 html, body, #events {
