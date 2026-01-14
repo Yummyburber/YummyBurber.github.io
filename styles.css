@@ -114,9 +114,21 @@ h2 {
 footer {
     background-color: #55a71e; /* Bright Green */
     color: #f0ede5; /* tan text */
-    text-align: center;
+   
     padding: 2rem 1rem;
     border-top: 4px solid #3b3a30;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+.footer-content {
+    margin: 0 auto;
+    display: flex;
+    max-width: 1500px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
 }
 
 /* Buttons*/
@@ -139,7 +151,7 @@ footer {
 
 
 .logo {
-    max-width: 700px;
+    max-width: 600px;
     height: auto;
     width: auto;
     padding: 10px;
@@ -148,7 +160,7 @@ footer {
 /* make nav use flex so it can wrap on small screens */
 nav {
     display: flex;
-    gap: 6rem;
+    gap: 5rem;
     align-items: center;
     flex-wrap: wrap;
     flex: 1;
