@@ -17,7 +17,7 @@ a {
 header {
     background-color: #55a71e; /* Bright Green */
     color: #f0ede5; /* tan text */
-    padding: 1rem 1rem;
+    padding: 0.5rem 1rem;
    
     border-bottom: 4px solid #3b3a30;
     justify-content: space-between;
@@ -28,8 +28,8 @@ header {
 
 header h1 {
     margin: 0;
-    padding: 1rem 1rem;
-    font-size: 2.5rem;
+  line-height: 1;
+    font-size: 2rem;
     font-weight: bold;
     letter-spacing: 2px;
     font-family: 'Century Gothic'; /* professional */
@@ -115,11 +115,11 @@ footer {
     background-color: #55a71e; /* Bright Green */
     color: #f0ede5; /* tan text */
    
-    padding: 2rem 1rem;
+    padding: 0rem 0.5rem;
     border-top: 4px solid #3b3a30;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    /* position: fixed; */
+    /* bottom: 0; */
+    /* width: 100%; */
     
 }
 .footer-content {
@@ -151,16 +151,16 @@ footer {
 
 
 .logo {
-    max-width: 600px;
-    height: auto;
-    width: auto;
+    max-width: 200px;
+    height: 100px;
+    width: 200px;
     padding: 10px;
 }
 
 /* make nav use flex so it can wrap on small screens */
 nav {
     display: flex;
-    gap: 5rem;
+    gap: 1rem;
     align-items: center;
     flex-wrap: wrap;
     flex: 1;
@@ -168,11 +168,11 @@ nav {
 }
 
 nav a {
-    margin: 0 1rem;
-    padding: 0.5rem 1rem;
+    margin: 0 rem;
+    padding: 0rem 1rem;
     color: #3b3a30;
     font-weight: bold;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 html, body, #events {
