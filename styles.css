@@ -117,9 +117,9 @@ footer {
    
     padding: 0rem 0.5rem;
     border-top: 4px solid #3b3a30;
-    /* position: fixed; */
-    /* bottom: 0; */
-    /* width: 100%; */
+    position: sticky;
+    bottom: 0;
+    width: 100%;
     
 }
 .footer-content {
@@ -157,7 +157,7 @@ footer {
     padding: 10px;
 }
 
-/* make nav use flex so it can wrap on small screens */
+/* make nav use flex so it can wrap on phones or pads */
 nav {
     display: flex;
     gap: 1rem;
@@ -212,4 +212,9 @@ html, body, #events {
     .hero-content h2 {
         font-size: 1.4rem;
     }
+}
+@media print {
+  H2 {
+    break-after: always;
+  }
 }
