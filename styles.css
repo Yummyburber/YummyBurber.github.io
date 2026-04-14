@@ -213,8 +213,9 @@ html, body, #events {
         font-size: 1.4rem;
     }
 }
-@media print {
-  H2 {
-    break-after: always;
-  }
+
+section {
+  padding: 80px 20px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #eee;
 }
