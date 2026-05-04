@@ -1,11 +1,12 @@
-
+/*
 body {
-    font-family: 'Century Gothic', sans-serif; /* professional */
+    
+    font-size: 30px;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #3b3a30; /* dark brown text */
-    background-color: #f0ede5; /* soft tan background */
+    color: #3b3a30; 
+    background-color: #f0ede5; 
 }
 
 a {
@@ -13,14 +14,14 @@ a {
     color: inherit;
 }
 
-/* Header */
+/* Header 
 header {
-    background-color: #55a71e; /* Bright Green */
-    color: #f0ede5; /* tan text */
+    background-color: #55a71e; 
+    color: #f0ede5; 
     padding: 0.5rem 1rem;
    
     border-bottom: 4px solid #3b3a30;
-    justify-content: space-between;
+    justify-content: flex-start;
      align-items: center;
      display: flex;
 }
@@ -32,15 +33,12 @@ header h1 {
     font-size: 2rem;
     font-weight: bold;
     letter-spacing: 2px;
-    font-family: 'Century Gothic'; /* professional */
+    font-family: 'Century Gothic'; 
 }
-/*nav {
-    margin-top: 1rem;
-}
-    */
 
 
-/* Hero Section */
+
+/* Hero Section 
 .hero {
     background: url('https://www.dubuquebikecoop.org/wp-content/uploads/2019/10/IMG_5824-1024x683.jpg') no-repeat center center/cover;
     height: 60vh;
@@ -55,7 +53,7 @@ header h1 {
     content: "";
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background-color: rgba(240, 237, 229, 0.7); /* tan overlay */
+    background-color: rgba(240, 237, 229, 0.7); /* tan overlay 
 }
 .hero-content {
     position: relative;
@@ -67,7 +65,7 @@ header h1 {
     font-family: 'Century Gothic';
 }
 .hero-content a {
-    background-color: #55a71e; /* olive button */
+    background-color: #55a71e; /* olive button 
     padding: 0.8rem 1.5rem;
     color: #f0ede5;
     border-radius: 25px;
@@ -78,11 +76,17 @@ header h1 {
     background-color: #6a6946;
 }
 
-/* Sections */
+/* Sections 
 section {
     padding: 4rem 2rem;
     max-width: 1000px;
     margin: auto;
+    
+}
+#about {
+    max-width: 100%;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 h2 {
     text-align: center;
@@ -91,29 +95,29 @@ h2 {
     font-family: 'Century Gothic';
 }
 
-/* Grid Layout */
+/* Grid Layout 
 .grid {
     display: grid;
-    gap: 2rem;
+    gap: 4rem;
 }
 .grid-2 {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-/* Cards */
+/* Cards 
 .card {
-    background-color: #f0ede5; /* tan card */
+    background-color: #f0ede5; /* tan card 
     padding: 2rem;
     border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(59, 58, 48, 0.2); /* soft brown shadow */
-    border: 2px solid #55a71e; /* subtle green border */
+    box-shadow: 0 4px 12px rgba(59, 58, 48, 0.2); /* soft brown shadow 
+    border: 2px solid #55a71e; /* subtle green border 
     overflow: auto;
 }
 
-/* Footer */
+/* Footer 
 footer {
-    background-color: #55a71e; /* Bright Green */
-    color: #f0ede5; /* tan text */
+    background-color: #55a71e; /* Bright Green 
+    color: #f0ede5; /* tan text 
    
     padding: 0rem 0.5rem;
     border-top: 4px solid #3b3a30;
@@ -131,7 +135,7 @@ footer {
     padding: 1rem;
 }
 
-/* Buttons*/
+/* Buttons
 .btn {
     display: inline-block;
     background-color: #8b8a5f;
@@ -147,32 +151,35 @@ footer {
 .btn:hover {
     background-color: #6a6946;
 }
-/* Header layout */
+/* Header layout 
 
 
 .logo {
-    max-width: 200px;
-    height: 100px;
-    width: 200px;
+    max-width: 500px;
+    height: 250px;
+    width: 500px;
     padding: 10px;
+    margin-left: 6rem;
+    
 }
 
-/* make nav use flex so it can wrap on phones or pads */
+/* make nav use flex so it can wrap on phones or pads 
 nav {
     display: flex;
-    gap: 1rem;
     align-items: center;
     flex-wrap: wrap;
     flex: 1;
-    justify-content: flex-end
+    justify-content: center;
+    gap: 5rem  ;
 }
 
 nav a {
-    margin: 0 rem;
-    padding: 0rem 1rem;
-    color: #3b3a30;
+    
+    padding: 0.5rem 4rem;
+    color: #3b3030;
     font-weight: bold;
-    font-size: x-large;
+    font-size: 45px !important;
+     font-family: 'Century Gothic';
 }
 
 html, body, #events {
@@ -189,7 +196,7 @@ html, body, #events {
     font-family: 'Century Gothic';
 }
 
-/* making it work for phones */
+/* making it work for phones 
 @media (max-width: 600px) {
     
     
@@ -218,4 +225,254 @@ section {
   padding: 80px 20px;
   margin-bottom: 40px;
   border-bottom: 2px solid #eee;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#Main {
+    min-height: unset;
+    padding:0px;
+    
+}
+
+#mission-vision .grid {
+    align-items: center;
+    border-bottom: none;
+    
+}
+#mission-vision {
+    max-width: 100%;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    
+} 
+
+*/
+
+
+/* ===== BASE ===== */
+body {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #3b3a30;
+    background-color: #f0ede5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #3b3a30;
+    font-family: 'Century Gothic';
+}
+
+/* ===== HEADER ===== */
+header {
+    background-color: #55a71e;
+    color: #f0ede5;
+    padding: 0.5rem 1rem;
+    border-bottom: 4px solid #3b3a30;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    width: 500px;
+    height: 250px;
+    padding: 10px;
+    margin-left: 6rem;
+}
+
+nav {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+}
+
+nav a {
+    padding: 0.5rem 4rem;
+    color: #3b3030;
+    font-weight: bold;
+    font-size: 45px !important;
+    font-family: 'Century Gothic';
+}
+
+/* ===== SECTIONS ===== */
+section {
+    padding: 80px 20px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #eee;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#Main  {
+    min-height: unset;
+   padding: 20px;
+    margin-bottom: 0;
+}
+
+#about, #mission-vision, #Reports, #Bikes, #advocacy {
+    max-width: 100%;
+    margin: 0 4rem;  /* shorthand for top/bottom 0, left/right 4rem */
+}
+
+#mission-vision h2{
+   margin-bottom: 0.5rem;
+}
+#advocacy {
+    align-items: center;
+    
+}
+#Reports {
+    align-items: center;
+}
+
+/* ===== GRID ===== */
+.grid {
+    display: grid;
+    gap: 4rem;
+}
+
+.grid-2 {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+#mission-vision .grid  {
+    align-items: center;
+}
+
+#Bikes .grid{
+    align-items: left;
+}
+#advocacy .grid{
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 0;
+}
+
+
+/* ===== CARDS ===== */
+.card {
+    background-color: #f0ede5;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(59, 58, 48, 0.2);
+    border: 2px solid #55a71e;
+    overflow: auto;
+}
+
+/* ===== BUTTONS ===== */
+.btn {
+    display: inline-block;
+    background-color: #8b8a5f;
+    color: #f0e7e5;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-weight: bold;
+    font-family: 'Century Gothic';
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #6a6946;
+}
+
+/* ===== HERO ===== */
+.hero {
+    background: url('https://www.dubuquebikecoop.org/wp-content/uploads/2019/10/IMG_5824-1024x683.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3b3a30;
+    text-align: center;
+    position: relative;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;  /* shorthand for top/right/bottom/left: 0 */
+    background-color: rgba(240, 237, 229, 0.7);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Century Gothic';
+}
+
+.hero-content a {
+    background-color: #55a71e;
+    padding: 0.8rem 1.5rem;
+    color: #f0ede5;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.hero-content a:hover {
+    background-color: #6a6946;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #55a71e;
+    color: #f0ede5;
+    padding: 0 0.5rem;
+    border-top: 4px solid #3b3a30;
+    position: fixed;
+    width: 100%;
+    font-size: 20px;
+    bottom: 0;
+    ;
+}
+
+.footer-content {
+    display: flex;
+    max-width: 1500px;
+        margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3rem 0.5rem;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 0.75rem;
+    }
+    .logo {
+        max-width: 100%;
+        margin-bottom: 0.25rem;
+    }
+    nav {
+        justify-content: center;
+        width: 100%;
+    }
+    .hero {
+        height: 40vh;
+    }
+    .hero-content h2 {
+        font-size: 1.4rem;
+    }
 }
