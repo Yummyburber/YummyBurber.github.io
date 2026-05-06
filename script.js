@@ -1,3 +1,9 @@
-window.onbeforeunload = function () {
-window.scrollTo(0,0)
-};
+history.scrollRestoration = 'manual';
+
+function fixPadding() {
+    const headerHeight = document.querySelector('header').offsetHeight;
+    document.body.style.paddingTop = headerHeight + 'px';
+}
+
+fixPadding();
+window.addEventListener('resize', fixPadding);
