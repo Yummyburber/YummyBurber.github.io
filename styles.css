@@ -1,258 +1,8 @@
-/*
-body {
-    
-    font-size: 30px;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    color: #3b3a30; 
-    background-color: #f0ede5; 
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-/* Header 
-header {
-    background-color: #55a71e; 
-    color: #f0ede5; 
-    padding: 0.5rem 1rem;
-   
-    border-bottom: 4px solid #3b3a30;
-    justify-content: flex-start;
-     align-items: center;
-     display: flex;
-}
-
-
-header h1 {
-    margin: 0;
-  line-height: 1;
-    font-size: 2rem;
-    font-weight: bold;
-    letter-spacing: 2px;
-    font-family: 'Century Gothic'; 
-}
-
-
-
-/* Hero Section 
-.hero {
-    background: url('https://www.dubuquebikecoop.org/wp-content/uploads/2019/10/IMG_5824-1024x683.jpg') no-repeat center center/cover;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #3b3a30;
-    text-align: center;
-    position: relative;
-}
-.hero::after {
-    content: "";
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background-color: rgba(240, 237, 229, 0.7); /* tan overlay 
-}
-.hero-content {
-    position: relative;
-    z-index: 1;
-}
-.hero-content h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    font-family: 'Century Gothic';
-}
-.hero-content a {
-    background-color: #55a71e; /* olive button 
-    padding: 0.8rem 1.5rem;
-    color: #f0ede5;
-    border-radius: 25px;
-    font-weight: bold;
-    transition: background 0.3s;
-}
-.hero-content a:hover {
-    background-color: #6a6946;
-}
-
-/* Sections 
-section {
-    padding: 4rem 2rem;
-    max-width: 1000px;
-    margin: auto;
-    
-}
-#about {
-    max-width: 100%;
-    margin-left: 4rem;
-    margin-right: 4rem;
-}
-h2 {
-    text-align: center;
-    margin-bottom: 2rem;
-    color: #3b3a30;
-    font-family: 'Century Gothic';
-}
-
-/* Grid Layout 
-.grid {
-    display: grid;
-    gap: 4rem;
-}
-.grid-2 {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-
-/* Cards 
-.card {
-    background-color: #f0ede5; /* tan card 
-    padding: 2rem;
-    border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(59, 58, 48, 0.2); /* soft brown shadow 
-    border: 2px solid #55a71e; /* subtle green border 
-    overflow: auto;
-}
-
-/* Footer 
-footer {
-    background-color: #55a71e; /* Bright Green 
-    color: #f0ede5; /* tan text 
-   
-    padding: 0rem 0.5rem;
-    border-top: 4px solid #3b3a30;
-    position: sticky;
-    bottom: 0;
-    width: 100%;
-    
-}
-.footer-content {
-    margin: 0 auto;
-    display: flex;
-    max-width: 1500px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-}
-
-/* Buttons
-.btn {
-    display: inline-block;
-    background-color: #8b8a5f;
-    color: #f0e7e5;
-    padding: 0.5rem 1rem;
-    border-radius: 25px;
-    font-weight: bold;
-    font-family: 'Century Gothic';
-    transition: background 0.3s;
-}
-
-
-.btn:hover {
-    background-color: #6a6946;
-}
-/* Header layout 
-
-
-.logo {
-    max-width: 500px;
-    height: 250px;
-    width: 500px;
-    padding: 10px;
-    margin-left: 6rem;
-    
-}
-
-/* make nav use flex so it can wrap on phones or pads 
-nav {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex: 1;
-    justify-content: center;
-    gap: 5rem  ;
-}
-
-nav a {
-    
-    padding: 0.5rem 4rem;
-    color: #3b3030;
-    font-weight: bold;
-    font-size: 45px !important;
-     font-family: 'Century Gothic';
-}
-
-html, body, #events {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    max-width: 100%;
-   
-}
-.events h2 {
-    margin-top: 0;
-    padding-top: 20px;
-    text-align: center;
-    font-family: 'Century Gothic';
-}
-
-/* making it work for phones 
-@media (max-width: 600px) {
-    
-    
-    header {
-        flex-direction: column;
-        align-items: center;
-        padding: 0.75rem 0.75rem;
-    }
-    .logo {
-        max-width: 100%;
-        margin-bottom: 0.25rem;
-    }
-    nav {
-        justify-content: center;
-        width: 100%;
-    }
-    .hero {
-        height: 40vh;
-    }
-    .hero-content h2 {
-        font-size: 1.4rem;
-    }
-}
-
-section {
-  padding: 80px 20px;
-  margin-bottom: 40px;
-  border-bottom: 2px solid #eee;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-#Main {
-    min-height: unset;
-    padding:0px;
-    
-}
-
-#mission-vision .grid {
-    align-items: center;
-    border-bottom: none;
-    
-}
-#mission-vision {
-    max-width: 100%;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    
-} 
-
-*/
 
 
 /* ===== BASE ===== */
 html{
-      scroll-snap-type: y proximity;
+      scroll-snap-type: none;
 }
 body {
     font-family: 'Century Gothic', sans-serif;
@@ -559,6 +309,10 @@ footer a:active {
     #about, #mission-vision, #Reports, #Bikes, #advocacy {
         margin: 0 2rem;
     }
+
+    /* ADDED */
+    body { padding-top: 180px; }
+    section { scroll-margin-top: 180px; }
 }
 
 /* ===== MOBILE (max 600px) ===== */
@@ -566,9 +320,10 @@ footer a:active {
 
     body {
         font-size: 18px;
+       /* padding-top: 250px;*/ /* ADDED */
+        padding-bottom: 60px;
     }
 
-    /* Header stacks vertically */
     header {
         flex-direction: column;
         align-items: center;
@@ -581,38 +336,44 @@ footer a:active {
         margin-left: 0;
     }
 
-    /* Nav wraps and shrinks */
-     nav {
-        flex-direction: row;  /* change from column to row */
+    nav {
+        flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         gap: 0.25rem;
         width: 100%;
     }
 
-
     nav a {
         font-size: 16px !important;
         padding: 0.4rem 0.75rem;
     }
 
-    /* Sections */
     section {
         padding: 40px 15px;
-        min-height: unset;  /* removes forced full-screen height */
+        min-height: unset;
+        scroll-margin-top: 140px; /* ADDED */
     }
 
     #about, #mission-vision, #Reports, #Bikes, #advocacy {
         margin: 0 1rem;
     }
 
-    /* Grid goes single column */
     .grid-2 {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
 
-    /* Images fill width, no hardcoded margins */
+    /* ADDED */
+    #Education .grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* ADDED */
+    #BargainBikes {
+        margin-left: 0;
+    }
+
     img {
         width: 100% !important;
         height: auto !important;
@@ -620,9 +381,8 @@ footer a:active {
         margin-right: 0 !important;
     }
 
-    /* Footer */
     footer {
-        position: static;  /* fixed footer is bad on mobile */
+        /*position: static;*/
         font-size: 14px;
     }
 
