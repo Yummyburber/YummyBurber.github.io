@@ -332,8 +332,8 @@ footer a:active {
     nav { gap: clamp(0.2rem, 1vw, 1.5rem); }
  
     /* Header is now ~80–120px tall; give body room accordingly */
-    body { padding-top: 120px; }
-    section { scroll-margin-top: 120px; }
+    body { padding-top: 160px; }
+    section { scroll-margin-top: 160px; }
 }
  
 /* ===== MOBILE (max 600px) ===== */
